@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "CardNameIntent",
+      "slots": [
+        {
+          "name": "CardName",
+          "type": "LIST_OF_CARD_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
